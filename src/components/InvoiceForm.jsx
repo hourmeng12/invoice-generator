@@ -238,8 +238,8 @@ const InvoiceForm = () => {
                 <input
                   className="w-full rounded-r-none bg-white shadow-sm"
                   type="number"
-                  name="invoice-number"
-                  id="invoice-number"
+                  name="tax"
+                  id="tax"
                   min="0.01"
                   step="0.01"
                   placeholder="0.0"
@@ -252,15 +252,18 @@ const InvoiceForm = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold md:text-base" htmlFor="tax">
+              <label
+                className="text-sm font-bold md:text-base"
+                htmlFor="discount"
+              >
                 Discount rate:
               </label>
               <div className="flex items-center">
                 <input
                   className="w-full rounded-r-none bg-white shadow-sm"
                   type="number"
-                  name="invoice-number"
-                  id="invoice-number"
+                  name="discount"
+                  id="discount"
                   min="0"
                   step="0.01"
                   placeholder="0.0"
