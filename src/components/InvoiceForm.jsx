@@ -26,6 +26,7 @@ const InvoiceForm = () => {
     },
   ]);
 
+  // dummy
   const reviewInvoiceHandler = (event) => {
     event.preventDefault();
     setIsOpen(true);
